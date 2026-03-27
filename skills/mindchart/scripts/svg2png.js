@@ -6,8 +6,8 @@ import path from 'path';
 const args = process.argv.slice(2);
 const svgPath = args[0] ? path.resolve(args[0]) : path.join(process.cwd(), 'input.svg');
 const outputPath = args[1] ? path.resolve(args[1]) : path.join(process.cwd(), 'output.png');
-const fontPath = path.join(process.cwd(), 'skills', 'mindchart', 'fonts', 'SourceHanSansSC-Normal.otf');
-const fontName = 'SourceHanSansSC';
+const fontPath = path.join(process.cwd(), 'skills', 'mindchart', 'fonts', 'wqy-microhei.ttc');
+const fontName = 'WenQuanYi Micro Hei';
 
 const DPI = 300;
 
@@ -24,6 +24,9 @@ function measureTextWidth(text, fontSize) {
 let svgContent = fs.readFileSync(svgPath, 'utf8');
 svgContent = svgContent.replace(/font-family="[^"]*PuHuiTi[^"]*"/g, `font-family="${fontName}"`);
 svgContent = svgContent.replace(/#PuHuiTi/g, `#${fontName}`);
+
+svgContent = svgContent.replace(/font-family="[^"]*SourceHanSansSC[^"]*"/g, `font-family="${fontName}"`);
+svgContent = svgContent.replace(/#SourceHanSansSC/g, `#${fontName}`);
 
 svgContent = svgContent.replace(/<\?xml-stylesheet[^?]*\?>/g, '');
 svgContent = svgContent.replace(/url\(##/g, 'url(#');

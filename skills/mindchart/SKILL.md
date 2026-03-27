@@ -10,25 +10,6 @@ Before starting the task, you need to understand the AntV Infographic syntax spe
 
 **Strictly follow the generation workflow without any deviation**
 
-
-## Font Installation
-
-```bash
-cat mindchart/fonts/SourceHanSansSC-Normal.otf.part.* > mindchart/fonts/SourceHanSansSC-Normal.otf
-```
-
-## Dependency Installation
-
-```bash
-npm install @antv/infographic opentype.js sharp
-```
-
-or
-
-```bash
-bun install @antv/infographic opentype.js sharp
-```
-
 ## Specifications
 
 ### AntV Infographic Syntax
