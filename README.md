@@ -4,8 +4,8 @@
 <div align="center">
   <p>
 
-[![English](https://img.shields.io/badge/-English-blue?style=for-the-badge&flag=us)](https://github.com/zhangsl/mindchart/blob/main/README.md)
-[![中文](https://img.shields.io/badge/-中文-red?style=for-the-badge&flag=cn)](https://github.com/zhangsl/mindchart/blob/main/README.zh.md)
+[![English](https://img.shields.io/badge/-English-blue?style=for-the-badge&flag=us)](https://github.com/NewToolAI/mindchart/blob/main/README.md)
+[![中文](https://img.shields.io/badge/-中文-red?style=for-the-badge&flag=cn)](https://github.com/NewToolAI/mindchart/blob/main/README.zh.md)
 
   </p>
 </div>
