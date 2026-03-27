@@ -1,0 +1,13 @@
+.claude
+.ruff_cache
+assets
+node_modules
+output
+crawler
+*.json
+.DS_Store
+*.png
+*.svg
+*.txt
+*.pyc
+*.old
