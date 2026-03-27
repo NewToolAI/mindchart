@@ -14,7 +14,7 @@ Before starting the task, you need to understand the AntV Infographic syntax spe
 ## Font Installation
 
 ```bash
-cat mindchart/scripts/fonts/SourceHanSansSC-Normal.otf.part.* > mindchart/scripts/fonts/SourceHanSansSC-Normal.otf
+cat mindchart/fonts/SourceHanSansSC-Normal.otf.part.* > mindchart/fonts/SourceHanSansSC-Normal.otf
 ```
 
 ## Dependency Installation
@@ -26,7 +26,7 @@ npm install @antv/infographic opentype.js sharp
 or
 
 ```bash
-bun install @antv/infographic opentypejs sharp
+bun install @antv/infographic opentype.js sharp
 ```
 
 ## Specifications
