@@ -1,7 +1,7 @@
 ---
 name: mindchart
-description: Create exquisite infographics from user uploaded files or given text. Used when user requests to create an infographic.
-requirements: Requires node or bun environment, install the following dependencies: @antv/infographic, opentype.js, sharp
+description: Create exquisite infographics from user-uploaded files or given text. Used when user requests to create an infographic.
+requirements: Requires node or bun environment, install the following dependencies：@antv/infographic, opentype.js, sharp
 ---
 
 Infographics transform data, information, and knowledge into perceptible visual language. They combine visual design with data visualization, using intuitive symbols to compress complex information, helping audiences quickly understand and remember key points.
