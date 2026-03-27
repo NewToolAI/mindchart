@@ -10,6 +10,13 @@ Before starting the task, you need to understand the AntV Infographic syntax spe
 
 **Strictly follow the generation workflow without any deviation**
 
+
+## Font Installation
+
+```bash
+cat mindchart/scripts/fonts/SourceHanSansSC-Normal.otf.part.* > mindchart/scripts/fonts/SourceHanSansSC-Normal.otf
+```
+
 ## Dependency Installation
 
 ```bash
@@ -136,6 +143,7 @@ Generate infographic syntax file according to template syntax and the `Specifica
 
 - **Syntax file format: `{title}.ifgc`**
 - Ensure the generated infographic displays with **white background and black text and icons**
+- Ensure the length of `desc` field is less than 17 tokens
 
 #### Self-Check Checklist
 
