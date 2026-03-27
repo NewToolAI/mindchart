@@ -141,7 +141,7 @@ Deeply think and understand user requirements, select one appropriate template a
 
 Generate infographic syntax file according to template syntax and the `Specifications` above.
 
-- **Syntax file format: `{title}.ifgc`**
+- **Syntax file format: `{title}.md`**
 - Ensure the generated infographic displays with **white background and black text and icons**
 - Ensure the length of `desc` field is less than 17 tokens
 
@@ -161,7 +161,7 @@ Before outputting, check the following:
 ### Step 3: Generate SVG File
 
 ```bash
-node mindchart/scripts/ifgc2svg {title}.ifgc {title}.svg
+node mindchart/scripts/ifgc2svg {title}.md {title}.svg
 ```
 
 ### Step 4: Convert to PNG File
