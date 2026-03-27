@@ -25,6 +25,10 @@ let svgContent = fs.readFileSync(svgPath, 'utf8');
 svgContent = svgContent.replace(/font-family="[^"]*PuHuiTi[^"]*"/g, `font-family="${fontName}"`);
 svgContent = svgContent.replace(/#PuHuiTi/g, `#${fontName}`);
 
+svgContent = svgContent.replace(/<\?xml-stylesheet[^?]*\?>/g, '');
+svgContent = svgContent.replace(/url\(##/g, 'url(#');
+svgContent = svgContent.replace(/id="#([^"]+)"/g, 'id="$1"');
+
 function wrapText(text, maxWidth, fontSize, measureFn) {
   const lines = [];
   const paragraphs = text.split('\n');

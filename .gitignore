@@ -6,8 +6,7 @@ output
 crawler
 *.json
 .DS_Store
-*.png
-*.svg
 *.txt
 *.pyc
 *.old
+CLAUDE.md
