@@ -1,6 +1,6 @@
 ---
 name: mindchart
-description: Create exquisite infographics from user-uploaded files or given text. Used when user requests to create an infographic.
+description: Create exquisite infographics from user uploaded files or given text. Used when user requests to create an infographic.
 requirements: Requires node or bun environment, install the following dependencies: @antv/infographic, opentype.js, sharp
 ---
 
