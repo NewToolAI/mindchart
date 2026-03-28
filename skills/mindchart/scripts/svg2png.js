@@ -72,18 +72,27 @@ function wrapText(text, maxWidth, fontSize, measureFn) {
   return lines;
 }
 
+// 先收集所有匹配，避免边匹配边替换导致位置偏移
 const foreignObjectRegex = /<foreignObject([^>]*)>([\s\S]*?)<\/foreignObject>/g;
+const matches = [];
 let match;
 
 while ((match = foreignObjectRegex.exec(svgContent)) !== null) {
-  const fullMatch = match[0];
-  const attrs = match[1];
-  const foreignObjectContent = match[2];
+  matches.push({
+    fullMatch: match[0],
+    attrs: match[1],
+    foreignObjectContent: match[2],
+    index: match.index
+  });
+}
+
+// 从后往前替换，避免位置偏移
+for (let i = matches.length - 1; i >= 0; i--) {
+  const { fullMatch, attrs, foreignObjectContent } = matches[i];
 
   const xMatch = attrs.match(/x="([^"]*)"/);
   const yMatch = attrs.match(/y="([^"]*)"/);
   const widthMatch = attrs.match(/width="([^"]*)"/);
-  const heightMatch = attrs.match(/height="([^"]*)"/);
 
   const x = xMatch ? parseFloat(xMatch[1]) : 0;
   const y = yMatch ? parseFloat(yMatch[1]) : 0;
@@ -116,13 +125,13 @@ while ((match = foreignObjectRegex.exec(svgContent)) !== null) {
     const lineHeightPx = fontSize * lineHeight;
     const totalHeight = lines.length * lineHeightPx;
     let startY = y + (totalHeight > fontSize * lineHeight ? fontSize * 0.85 : fontSize * 0.85 + (fontSize * lineHeight - totalHeight) / 2);
-    
+
     const pathElements = [];
-    
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i];
+
+    for (let j = 0; j < lines.length; j++) {
+      const line = lines[j];
       let lineX = x;
-      
+
       if (textAlign === 'center') {
         const lineWidth = measureTextWidth(line, fontSize);
         lineX = x + (containerWidth - lineWidth) / 2;
@@ -130,8 +139,8 @@ while ((match = foreignObjectRegex.exec(svgContent)) !== null) {
         const lineWidth = measureTextWidth(line, fontSize);
         lineX = x + containerWidth - lineWidth;
       }
-      
-      const lineY = startY + i * lineHeightPx;
+
+      const lineY = startY + j * lineHeightPx;
       const path = font.getPath(line, lineX, lineY, fontSize, {
         align: 'left',
         features: {}
