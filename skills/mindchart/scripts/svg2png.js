@@ -6,7 +6,7 @@ import path from 'path';
 const args = process.argv.slice(2);
 const svgPath = args[0] ? path.resolve(args[0]) : path.join(process.cwd(), 'input.svg');
 const outputPath = args[1] ? path.resolve(args[1]) : path.join(process.cwd(), 'output.png');
-const fontPath = path.join(process.cwd(), 'skills', 'mindchart', 'fonts', 'wqy-microhei.ttc.txt');
+const fontPath = path.join(process.cwd(), 'skills', 'mindchart', 'fonts', 'wqy-microhei.otf.txt');
 const fontName = 'WenQuanYi Micro Hei';
 
 const DPI = 300;
