@@ -110,8 +110,9 @@ while ((match = foreignObjectRegex.exec(svgContent)) !== null) {
     if (alignMatch) textAlign = alignMatch[1].trim();
   }
 
+  const noWrap = attrs.match(/data-no-wrap="true"/);
   if (textContent) {
-    const lines = wrapText(textContent, containerWidth, fontSize, measureTextWidth);
+    const lines = noWrap ? [textContent] : wrapText(textContent, containerWidth, fontSize, measureTextWidth);
     const lineHeightPx = fontSize * lineHeight;
     const totalHeight = lines.length * lineHeightPx;
     let startY = y + (totalHeight > fontSize * lineHeight ? fontSize * 0.85 : fontSize * 0.85 + (fontSize * lineHeight - totalHeight) / 2);

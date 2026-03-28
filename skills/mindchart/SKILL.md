@@ -151,7 +151,7 @@ node mindchart/scripts/ifgc2svg {title}.md {title}.svg
 node mindchart/scripts/svg2png {title}.svg {title}.png
 ```
 
-### Step 5: Return PNG File
+### Step 5: Return PNG/SVG File
 
 - If user is using openclaw or other bot, send png and svg as images to the user
 - In other cases, save svg and png to the specified directory or project directory
