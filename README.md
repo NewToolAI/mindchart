@@ -57,6 +57,9 @@
 ![SWOT Quadrant](images/SWOT-quadrant.jpeg)
 *SWOT Quadrant*
 
+![AI Five Layer Cake Model](images/AI-Five-Layer-Cake-Model.jpg)
+*AI Five Layer Cake Model*
+
 ---
 
 ## 🚀 Quick Start

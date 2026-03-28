@@ -57,6 +57,9 @@
 ![SWOT 四象限](images/SWOT-quadrant.jpeg)
 *SWOT 四象限*
 
+![AI 五层蛋糕模型](images/AI-Five-Layer-Cake-Model.jpg)
+*AI 五层蛋糕模型*
+
 ---
 
 ## 🚀 快速开始
