@@ -1,13 +1,17 @@
 # MindChart
 
-<!-- Language Switcher -->
+<!-- Badges -->
 <div align="center">
-  <p>
 
 [![English](https://img.shields.io/badge/-English-blue?style=for-the-badge&flag=us)](https://github.com/NewToolAI/mindchart/blob/main/README.md)
 [![中文](https://img.shields.io/badge/-中文-red?style=for-the-badge&flag=cn)](https://github.com/NewToolAI/mindchart/blob/main/README.zh.md)
+[![npm version](https://img.shields.io/npm/v/@antv/infographic?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@antv/infographic)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/NewToolAI/mindchart?style=for-the-badge&color=yellow)](https://github.com/NewToolAI/mindchart/stargazers)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blue?style=for-the-badge&logo=anthropic)](https://claude.ai/code)
+[![Cursor](https://img.shields.io/badge/Cursor-AI%20Agent-green?style=for-the-badge&logo=cursor)](https://cursor.sh)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-Agent%20Ready-purple?style=for-the-badge)](https://openclaw.ai)
 
-  </p>
 </div>
 
 ---
