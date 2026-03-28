@@ -30,14 +30,32 @@
 
 ## 📸 作品展示
 
-![AI 发展史](images/AI-History-zh.jpeg)
-*AI 发展史*
+![AI 发展史思维导图](images/AI-History-mindmap.jpg)
+*AI 发展史思维导图*
 
-![AI 与人类](images/AI-vs-Human-zh.jpg)
-*AI 与人类*
+![关系图](images/Relation-diagram.jpg)
+*关系图*
 
-![世界人口](images/World-Population-zh-en.jpg)
-*世界人口*
+![横向列表图标](images/List-horizontal-icons.jpg)
+*横向列表图标*
+
+![纵向卡片列表](images/List-vertical-cards.jpeg)
+*纵向卡片列表*
+
+![卡片式图表](images/Chart-cards.jpeg)
+*卡片式图表*
+
+![三栏布局](images/Layout-three-column.jpeg)
+*三栏布局*
+
+![纵向层级图](images/Hierarchy-vertical.jpeg)
+*纵向层级图*
+
+![纵向层级图 2](images/Hierarchy-vertical-2.jpeg)
+*纵向层级图 2*
+
+![SWOT 四象限](images/SWOT-quadrant.jpeg)
+*SWOT 四象限*
 
 ---
 

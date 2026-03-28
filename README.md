@@ -30,14 +30,32 @@
 
 ## 📸 Gallery
 
-![AI History](images/AI-History-en.jpeg)
-*AI History*
+![AI History Mindmap](images/AI-History-mindmap.jpg)
+*AI History Mindmap*
 
-![AI vs Human](images/AI-vs-Human-en.jpg)
-*AI vs Human*
+![Relation Diagram](images/Relation-diagram.jpg)
+*Relation Diagram*
 
-![World Population](images/World-Population-zh-en.jpg)
-*World Population*
+![List Horizontal Icons](images/List-horizontal-icons.jpg)
+*List Horizontal Icons*
+
+![List Vertical Cards](images/List-vertical-cards.jpeg)
+*List Vertical Cards*
+
+![Chart Cards](images/Chart-cards.jpeg)
+*Chart Cards*
+
+![Layout Three Column](images/Layout-three-column.jpeg)
+*Layout Three Column*
+
+![Hierarchy Vertical](images/Hierarchy-vertical.jpeg)
+*Hierarchy Vertical*
+
+![Hierarchy Vertical 2](images/Hierarchy-vertical-2.jpeg)
+*Hierarchy Vertical 2*
+
+![SWOT Quadrant](images/SWOT-quadrant.jpeg)
+*SWOT Quadrant*
 
 ---
 
