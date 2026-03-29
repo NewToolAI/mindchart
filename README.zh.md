@@ -32,34 +32,54 @@
 
 ## 📸 作品展示
 
-![AI 发展史思维导图](images/AI-History-mindmap.jpg)
+<p align="center">
+<img src="images/AI-History-mindmap.jpg" width="600" alt="AI 发展史思维导图">
+</p>
 *AI 发展史思维导图*
 
-![关系图](images/Relation-diagram.jpg)
+<p align="center">
+<img src="images/Relation-diagram.jpg" width="600" alt="关系图">
+</p>
 *关系图*
 
-![横向列表图标](images/List-horizontal-icons.jpg)
+<p align="center">
+<img src="images/List-horizontal-icons.jpg" width="600" alt="横向列表图标">
+</p>
 *横向列表图标*
 
-![纵向卡片列表](images/List-vertical-cards.jpeg)
+<p align="center">
+<img src="images/List-vertical-cards.jpeg" width="600" alt="纵向卡片列表">
+</p>
 *纵向卡片列表*
 
-![卡片式图表](images/Chart-cards.jpeg)
+<p align="center">
+<img src="images/Chart-cards.jpeg" width="600" alt="卡片式图表">
+</p>
 *卡片式图表*
 
-![三栏布局](images/Layout-three-column.jpeg)
+<p align="center">
+<img src="images/Layout-three-column.jpeg" width="600" alt="三栏布局">
+</p>
 *三栏布局*
 
-![纵向层级图](images/Hierarchy-vertical.jpeg)
+<p align="center">
+<img src="images/Hierarchy-vertical.jpeg" width="600" alt="纵向层级图">
+</p>
 *纵向层级图*
 
-![纵向层级图 2](images/Hierarchy-vertical-2.jpeg)
+<p align="center">
+<img src="images/Hierarchy-vertical-2.jpeg" width="600" alt="纵向层级图 2">
+</p>
 *纵向层级图 2*
 
-![SWOT 四象限](images/SWOT-quadrant.jpeg)
+<p align="center">
+<img src="images/SWOT-quadrant.jpeg" width="600" alt="SWOT 四象限">
+</p>
 *SWOT 四象限*
 
-![AI 五层蛋糕模型](images/AI-Five-Layer-Cake-Model.jpg)
+<p align="center">
+<img src="images/AI-Five-Layer-Cake-Model.jpg" width="600" alt="AI 五层蛋糕模型">
+</p>
 *AI 五层蛋糕模型*
 
 ---
