@@ -35,52 +35,52 @@
 <p align="center">
 <img src="images/AI-History-mindmap.jpg" width="600" alt="AI 发展史思维导图">
 </p>
-*AI 发展史思维导图*
+AI 发展史思维导图
 
 <p align="center">
 <img src="images/Relation-diagram.jpg" width="600" alt="关系图">
 </p>
-*关系图*
+关系图
 
 <p align="center">
 <img src="images/List-horizontal-icons.jpg" width="600" alt="横向列表图标">
 </p>
-*横向列表图标*
+横向列表图标
 
 <p align="center">
 <img src="images/List-vertical-cards.jpeg" width="600" alt="纵向卡片列表">
 </p>
-*纵向卡片列表*
+纵向卡片列表
 
 <p align="center">
 <img src="images/Chart-cards.jpeg" width="600" alt="卡片式图表">
 </p>
-*卡片式图表*
+卡片式图表
 
 <p align="center">
 <img src="images/Layout-three-column.jpeg" width="600" alt="三栏布局">
 </p>
-*三栏布局*
+三栏布局
 
 <p align="center">
 <img src="images/Hierarchy-vertical.jpeg" width="600" alt="纵向层级图">
 </p>
-*纵向层级图*
+纵向层级图
 
 <p align="center">
 <img src="images/Hierarchy-vertical-2.jpeg" width="600" alt="纵向层级图 2">
 </p>
-*纵向层级图 2*
+纵向层级图 2
 
 <p align="center">
 <img src="images/SWOT-quadrant.jpeg" width="600" alt="SWOT 四象限">
 </p>
-*SWOT 四象限*
+SWOT 四象限
 
 <p align="center">
 <img src="images/AI-Five-Layer-Cake-Model.jpg" width="600" alt="AI 五层蛋糕模型">
 </p>
-*AI 五层蛋糕模型*
+AI 五层蛋糕模型
 
 ---
 

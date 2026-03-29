@@ -35,52 +35,52 @@
 <p align="center">
 <img src="images/AI-History-mindmap.jpg" width="600" alt="AI History Mindmap">
 </p>
-*AI History Mindmap*
+AI History Mindmap
 
 <p align="center">
 <img src="images/Relation-diagram.jpg" width="600" alt="Relation Diagram">
 </p>
-*Relation Diagram*
+Relation Diagram
 
 <p align="center">
 <img src="images/List-horizontal-icons.jpg" width="600" alt="List Horizontal Icons">
 </p>
-*List Horizontal Icons*
+List Horizontal Icons
 
 <p align="center">
 <img src="images/List-vertical-cards.jpeg" width="600" alt="List Vertical Cards">
 </p>
-*List Vertical Cards*
+List Vertical Cards
 
 <p align="center">
 <img src="images/Chart-cards.jpeg" width="600" alt="Chart Cards">
 </p>
-*Chart Cards*
+Chart Cards
 
 <p align="center">
 <img src="images/Layout-three-column.jpeg" width="600" alt="Layout Three Column">
 </p>
-*Layout Three Column*
+Layout Three Column
 
 <p align="center">
 <img src="images/Hierarchy-vertical.jpeg" width="600" alt="Hierarchy Vertical">
 </p>
-*Hierarchy Vertical*
+Hierarchy Vertical
 
 <p align="center">
 <img src="images/Hierarchy-vertical-2.jpeg" width="600" alt="Hierarchy Vertical 2">
 </p>
-*Hierarchy Vertical 2*
+Hierarchy Vertical 2
 
 <p align="center">
 <img src="images/SWOT-quadrant.jpeg" width="600" alt="SWOT Quadrant">
 </p>
-*SWOT Quadrant*
+SWOT Quadrant
 
 <p align="center">
 <img src="images/AI-Five-Layer-Cake-Model.jpg" width="600" alt="AI Five Layer Cake Model">
 </p>
-*AI Five Layer Cake Model*
+AI Five Layer Cake Model
 
 ---
 
